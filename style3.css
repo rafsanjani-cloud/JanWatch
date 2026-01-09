@@ -1,0 +1,91 @@
+h1{
+    position: relative;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  font-size: 500%;
+  color: #C77DFF;
+  text-shadow: 2px 2px 5px black;
+  }
+  
+p{
+color: white;
+  position:relative;
+  left: 25px;
+  text-shadow: 1px 1px 5px black;
+  font-family: "Luckiest Guy", cursive;
+  left:20px;
+  font-size: 60px;
+}
+
+hr{
+  border:none;
+  color:#2D1B45;
+  height:20px;
+  background-color:white;
+  border-radius:10px;
+  text-shadow: 1px 1px 1px black;
+} 
+
+ul{
+color:white;
+  position:relative;
+  font-family: "Luckiest Guy", cursive;
+  left:20px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}   
+  img{
+  display: block;
+  margin: auto;
+  width: 900px;
+}
+
+.Kembali {
+  position: relative;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 450%;
+  color: #C77DFF;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+  position: relative;
+  left: 2%;
+  padding: 10px 10px;
+  background: #ffd6ec;
+  border-radius: 300px;
+}
+
+.Lanjut {
+  position: relative;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 450%;
+  color: #C77DFF;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+  position: relative;
+  left: 38%;
+  padding: 5px 5px;
+  background: #ffd6ec;
+  border-radius: 250px;
+}
+
+
+body{
+  margin: 0;
+  height: 100vh;
+  animation: bgMove 10s infinite alternate;
+}
+@keyframes bgMove{
+  0% {background-color: #E6D9FF;}
+  
+  25% {background-color:#CDB4FF;}
+  
+  55% {background-color: #BDE0FE;}
+  
+  75% {background-color:#FFC8DD;
+  }
+  
+  100% {background-color:#D0BFFF}
+}

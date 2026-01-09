@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  height: 100vh;
+  animation: bgMove 10s infinite alternate;
+}
+@keyframes bgMove{
+  0% {background-color: #1b263b;}
+  
+  25% {background-color:#415a77;}
+  
+  55% {background-color: #2a2f4f;}
+  
+  75% {background-color:#00B4D8;
+  }
+  
+  100% {background-color:#3a0ca3}
+  
+  }.judul{
+    position: relative;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  font-size: 500%;
+  color: #00B4D8;
+  text-shadow: 2px 2px 5px black;
+  }
+  
+  img{
+  display: block;
+  margin: auto;
+  width: 900px;
+}
+
+h1{
+  color:#00B4D8;
+  position:relative;
+  left:20px;
+  font-family: "Cinzel", cursive;
+  font-size: 400%;
+  text-shadow: 2px 2px 5px black;
+}
+
+hr{
+  border:none;
+  color:#2D1B45;
+  height:10px;
+  background-color:white;
+  border-radius:10px;
+  text-shadow: 1px 1px 1px black;
+} 
+
+p{
+color:white;
+  position:relative;
+  left:20px;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 330%;
+  text-shadow: 2px 2px 5px black;
+}
+
+.Kembali {
+  position: relative;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 400%;
+  color: #00B4D8;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+  position: relative;
+  left: 2%;
+  padding: 10px 10px;
+  background: #ffd6ec;
+  border-radius: 300px;
+}
+
+.Lanjut {
+  position: relative;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-size: 400%;
+  color: #00B4D8;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: none;
+  position: relative;
+  left: 38%;
+  padding: 5px 5px;
+  background: #ffd6ec;
+  border-radius: 250px;
+}
